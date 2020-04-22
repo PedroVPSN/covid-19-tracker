@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(255, 255, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p, h4 {
+    margin: 3px;
+}
+img {
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px #ccc;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    
+}
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h4{
+    color: rgb(124, 120, 120);
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 5px 5px #ccc;
+    border-radius: 20px;
+    width: 15%;
+    padding : 20px;
+    margin: 40px 10px;
+    font-size: 14px;
+}
+.infected{
+    border-top: 7px solid rgb(245, 233, 61);
+    border-bottom: 7px solid rgb(245, 233, 61);
+}
+.recovered{
+    border-top: 7px solid rgb(86, 219, 33);
+    border-bottom: 7px solid rgb(86, 219, 33);
+}
+.deaths{
+    border-top: 7px solid rgb(134, 129, 129);
+    border-bottom: 7px solid rgb(134, 129, 129)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chart {
+    width: 50%;
+    margin-top: 20px;
+}
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.footerImage {
+    width: 50%;
+    height: 55%;
+}
+.footerColor {
+    background-color: lightblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 678px) {
+    .cardContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+        font-size: 14px;
+    }
+    .cards {
+        width: 75%;
+        margin: 10px 10px;
+    }
+    img {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    .chart {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .footerContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .footerImage {
+        width: 80%;
+        height: 55%;
+    }
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
