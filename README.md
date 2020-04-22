@@ -21,5 +21,5 @@ Icon -> https://favicon.io/emoji-favicons/microbe/
 
 ### Disclaimer
 
-I do not own the images on this application.
+I do not own the images on this project.
 This application is intended solely for the purpose of learning. It is not designed for commercial use.
