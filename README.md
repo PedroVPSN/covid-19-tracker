@@ -19,6 +19,8 @@ Chart -> https://www.chartjs.org/docs/latest/getting-started/installation.html
 
 Icon -> https://favicon.io/emoji-favicons/microbe/
 
+Telmo Sampaio, How to deploy on github pages -> https://www.youtube.com/watch?v=F8s4Ng-re0E
+
 ### Disclaimer
 
 I do not own the images on this project.
