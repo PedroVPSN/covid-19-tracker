@@ -4,6 +4,8 @@ With this React application, users can track the covid-19 cases around the world
 Users can check how many cases each country has or find out the amount of cases globally. 
 The chart gives users a visual representation of all the cases, both globally and broken down to each specific country.   
 
+App page -> https://pedrovpsn.github.io/covid-19-tracker/
+
 ## Credits 
 
 Part of this project was built following this tutorial: 
