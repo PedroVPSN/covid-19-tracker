@@ -8,9 +8,6 @@ App page -> https://pedrovpsn.github.io/covid-19-tracker/
 
 ## Credits 
 
-Part of this project was built following this tutorial: 
-https://www.youtube.com/watch?v=khJlrj3Y6Ls
-
 mathdoid API -> https://covid19.mathdro.id/api 
 
 GitHub -> https://github.com/mathdroid/covid-19-api
