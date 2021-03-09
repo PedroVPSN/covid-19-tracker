@@ -6,7 +6,7 @@ The chart gives users a visual representation of all the cases, both globally an
 
 App page -> https://pedrovpsn.github.io/covid-19-tracker/
 
-## Credits 
+## Resourses 
 
 mathdoid API -> https://covid19.mathdro.id/api 
 
